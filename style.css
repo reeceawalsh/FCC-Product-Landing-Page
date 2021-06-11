@@ -16,7 +16,7 @@ body {
 /* Header image and the links */
 
 header {
-  position: fixed;
+  position: absolute;
   width: calc(100% - 4rem);
   background-color: rgba(187, 178, 178, 0.39);
   padding: 1rem;
