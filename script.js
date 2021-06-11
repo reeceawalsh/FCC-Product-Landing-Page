@@ -7,11 +7,15 @@ function selectItem(e) {
   // Remove all show and border classes
   removeShow();
   removeBorder();
+  // Decide which content tab to work on
+  let contentNumber = this.id.replace(/\D/g, "");
   // Add border to current tab item
-  const tabItems = document.querySelector(`#tab-${this.id}`);
+  const tabItems = document.querySelector(`#tab-${contentNumber}`);
   tabItems.classList.add("tab-border");
   // Grab content item from DOM
-  const tabContentItem = document.querySelector(`#tab-${this.id}-content`);
+  const tabContentItem = document.querySelector(
+    `#tab-${contentNumber}-content`
+  );
   //Add show class
   tabContentItem.classList.add("show");
 }
