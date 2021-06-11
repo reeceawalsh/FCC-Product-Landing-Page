@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
+      crossorigin="anonymous"
+    />
+    <title>Product Landing Page</title>
+  </head>
+  <body>
+    <header id="header">
+      <div class="content-top">
+        <div class="content-img">
+          <img src="images/header.png" alt="Company Logo" id="header-img" />
+        </div>
+        <nav id="nav-bar">
+          <a href="#tab-1-content" class="nav-link">Features</a>
+          <a href="#tab-2-content" class="nav-link">How It Works</a>
+          <a href="#tab-3-content" class="nav-link">Pricing</a>
+        </nav>
+      </div>
+    </header>
+    <div class="mainbody">
+    <div class="showcase">
+      <h1 id="title" class="text-xl">Handcrafted, home-made masterpieces</h1>
+      <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <input
+          id="email"
+          type="email"
+          name="email"
+          placeholder="Enter your email address"
+          class="text-m"
+          required
+        />
+        <input type="submit" name="submit"
+        class="text-ml" id="submit"></input>
+      </form>
+    </div>
+    <main>
+      <div class="container">
+        <section class="tabs">
+          <div class="container">
+            <div id="tab-1" class="tab-item tab-border">
+              <i class="fas fa-music fa-3x"></i>
+              <p class="hide-sm">Features</p>
+            </div>
+            <div id="tab-2" class="tab-item">
+              <i class="fas fa-video fa-3x"></i>
+              <p class="hide-sm">How It Works</p>
+            </div>
+            <div id="tab-3" class="tab-item">
+              <i class="fas fa-tags fa-3x"></i>
+              <p class="hide-sm">Pricing</p>
+            </div>
+          </div>
+        </section>
+        <section class="tab-content">
+            <!-- Tab Content 1 -->
+            <div id="tab-1-content" class="tab-content-item">
+              <!-- Premium Materials Content-->
+              <div class="description-info">
+                <div class="description-icon">
+                  <i class="fas fa-fire fa-3x"></i>
+                </div>
+                <div class="description">
+                  <p class="text-lg">Premium Materials</p>
+                  <p class="text-m">
+                    Our trombones use the shiniest brass which is sourced
+                    locally. This will increase the longevity of your purchase.
+                  </p>
+                </div>
+              </div>
+              <!-- Fast Shipping Content-->
+              <div class="description-info">
+                <div class="description-icon">
+                  <i class="fas fa-truck fa-3x"></i>
+                </div>
+                <div class="description">
+                  <p class="text-lg">Fast Shipping</p>
+                  <p class="text-m">
+                    We make sure you recieve your trombone as soon as we have
+                    finished making it. We also provide free returns if you are
+                    not satisfied.
+                  </p>
+                </div>
+              </div>
+              <!-- Quality Assurance Content-->
+              <div class="description-info">
+                <div class="description-icon">
+                  <i class="fas fa-battery-full fa-3x"></i>
+                </div>
+                <div class="description">
+                  <p class="text-lg">Quality Assurance</p>
+                  <p class="text-m">
+                    For every purchase you make, we will ensure there are no
+                    damages or faults and we will check and test the pitch of
+                    your instrument.
+                  </p>
+                </div>
+              </div>
+            </div>
+          <!--- Tab Two Content -->
+          <div id="tab-2-content" class="tab-content-item">
+            <div class="video">
+              <video id="video" width="100%" height="auto" autoplay controls>
+                <source
+                src="file:///Users/reecewalsh/Documents/Gym%20Bro%20Yoked.mp4"
+                type=video/mp4>
+              </video>
+            </div>
+          </div>
+          <!-- Tab Three Content -->
+          <div id="tab-3-content" class="tab-content-item">
+            <div class="product" id="tenor">
+              <div class="product-heading">
+              <p class="text-ml" id="product-name">TENOR TROMBONE</p>
+            </div>
+              <p class="text-lg">$600</p>
+              <ol>
+                <li class="text-m">Lorem Ipsum</li>
+                <li class="text-m">Lorem Ipsum</li>
+                <li class="text-m">Lorem Ipsum Banana</li>
+                <li class="text-m">Lorem Ipsum</li>
+              </ol>
+              <button type="submit" class="btn-select text-m">SELECT</button>
+            </div>
+            <div class="product" id="bass">
+              <div class="product-heading">
+              <p class="text-ml" id="product-name">BASS TROMBONE</p>
+              </div>
+              <p class="text-lg">$900</p>
+              <ol>
+                <li class="text-m">Lorem Ipsum</li>
+                <li class="text-m">Lorem Ipsum</li>
+                <li class="text-m">Lorem Ipsum Orange</li>
+                <li class="text-m">Lorem Ipsum</li>
+              </ol>
+              <button type="submit" class="btn-select text-m">SELECT</button>
+            </div>
+            <div class="product" id="valve">
+              <div class="product-heading">
+              <p class="text-ml" id="product-name">VALVE TROMBONE</p>
+              </div>
+              <p class="text-lg">$1200</p>
+              <ol>
+                <li class="text-m">Lorem Ipsum</li>
+                <li class="text-m">Lorem Ipsum</li>
+                <li class="text-m">Lorem Ipsum Apple</li>
+                <li class="text-m">Lorem Ipsum</li>
+              </ol>
+              <button type="submit" class="btn-select text-m">SELECT</button>
+            </div>
+        </section>
+      </div>
+    </main>
+    <div id="space"></div>
+    <footer>
+      <p>Made by Reece Walsh</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
