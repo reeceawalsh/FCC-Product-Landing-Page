@@ -1,5 +1,7 @@
 # FCC-Product-Landing-Page Assignment #
 
-# This assignment was completely soley with HTML and CSS # 
+# This assignment was supposed to be made soley with HTML and CSS # 
 
-# I went beyond the scope on this assignment and added some fa styles and extra functionality in order to make the website look better #
+# I went beyond the scope and added some javascript for extra functionality #
+
+# I also added some fa styling to make the website look more interesting #
